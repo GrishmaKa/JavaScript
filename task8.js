@@ -4,6 +4,6 @@ function removeNumberStrings(input) {
     });
     return filteredArray;
 }
-const input = ["This ", "is ", "a3 ", "samp7e ", "stri9ng "];
+const input = ["The ", "moon ", "1s ", "r0und ", "Earth2 "];
 const resultArr = removeNumberStrings(input);
 document.write("Task 8 : " + resultArr);
